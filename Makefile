@@ -1,2 +1,2 @@
 all:
-	sudo salt-call --local --file-root srv/salt/ state.apply hello
+	sudo salt-call --local -l info --file-root srv/salt/ state.apply favourites
